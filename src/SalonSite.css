@@ -7,7 +7,9 @@
   font-style: normal;
   font-size: 60px; 
 }
-
+.serviceNavbar .navbar-nav .nav-link {
+  color: white !important;
+}
 .serviceNavbar {
   background-color: rgb(103, 92, 86); 
   backdrop-filter: blur(10px);
@@ -69,7 +71,7 @@
 }
 
 .bookingButton { 
-  background-color: #dc8787 !important; 
+  background-color: #A4946A !important; 
   transition: all 0.3s ease;
 }
 
@@ -92,4 +94,124 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: "Inria Serif", serif !important;
 }
+
+.service-spacer { 
+  min-height: 300px;
+
+  background-image: url('./assets/salon/BWSalon.jpg');
+  /* background: rgba(0, 0, 0, 0.01); */
+
+  /* filter: brightness(50%); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.service-spacer::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background: rgba(49, 49, 49, 0.6);
+}
+
+#services {
+  position: relative;
+  z-index: 1;
+  scroll-margin-top: 100px;
+  margin: 100px 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  color: white;
+}
+ 
+.serviceButton { 
+  background-color: #A4946A !important; 
+  transition: all 0.3s ease;
+}
+
+.serviceContainer {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.serviceCard {
+  background-color: rgb(169, 174, 170, 0.7) !important;
+  width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: "Inria Serif", serif !important;
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+}
+
+.serviceCardImage {
+  height: 100px; 
+  object-fit: cover;
+}
+
+.serviceCard .card-body {
+  padding: 12px;
+}
+
+.serviceCard .card-title {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.serviceCard .card-text {
+  margin-bottom: 10px;
+}
+
+
+
+
+.service-footer {
+  background-color: rgb(103, 92, 86); 
+  backdrop-filter: blur(10px);
+  margin-top: -50px;
+  padding: 10px; 
+  color: black;
+  text-align: center;
+}
+
+.service-footer h3 {
+  font-size: 30px;
+  font-family: "Inria Serif", serif !important;
+  color: white !important;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.service-footer p {
+  color: white !important;
+} 
+
+.serviceFooterLink {
+  display: inline-block; 
+  color: white !important;
+  text-decoration: underline;
+  margin-left: 8px;
+  transition: all 0.3s ease;
+  
+} 

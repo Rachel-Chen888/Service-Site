@@ -205,7 +205,7 @@ function PortfolioEntry() {
         </section>
         
       
-        <section id="contact" className="footer">
+        <section id="contact-service" className="footer">
           <Footer/>
         </section>
         

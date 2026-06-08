@@ -36,7 +36,7 @@ function ServiceNavbar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
                         <Nav.Link href="#booking">Booking</Nav.Link> 
                         <Nav.Link href="#services">Services</Nav.Link>
-                        <Nav.Link href="#prices">Prices</Nav.Link>
+                        <Nav.Link href="#contact-service">Contact Us</Nav.Link>
                         {/* <Nav.Link as={Link} to="/">Back to Portfolio</Nav.Link> */}
                     </Nav>
 
